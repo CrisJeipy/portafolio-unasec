@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+.title {
+margin-top: 20px;
+
+    top: 20%;
+}
+
+.cards {
+ width: 100%;
+ padding: 20px;
+ margin-top: 100px;
+    
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    gap: 20px;
+
+}
+
+.card {
+       position: relative;
+    width: 400px;
+    height:100%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #ffffff6b;
+    backdrop-filter: blue(12px);
+    -webkit-backdrop-filter: blur(12px);
+    
+    border-radius: 15px;
+}
+
+.button {
+    text-decoration: none;
+    color: rgb(222, 219, 219);
+    background-color: black;
+    width: 150px;
+    position: absolute;
+    bottom: 50px;
+    left: 20%;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.nota-container {
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+footer  {
+    width: 100%;
+    height: 220px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom:0px;
+    background-color: #62aeff65;
+    color: black;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    .title {
+        min-width: 230px;
+        font-size: 24px;
+
+    }
+    
+    .cards {
+        display: flex;
+        flex-direction: column;
+        display: block;
+        margin-top: 160px;
+        margin-bottom: 20px;
+        min-width: 230px;
+        padding-bottom: 10px;
+    }
+
+    .card {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+}
+    </style>
+
+
+    
+    <div class="cards">
+        <div class="card">
+            <h2>Unidad I.I: La Universidad Nacional Abierta: Educacion a distancia.</h2>
+            <a href="" download="./Educacion-a-distancia.docx" class="button">Descargar trabajo (formato word)</a>
+        </div>
+        <div class="card">
+            <h2>Unidad I.II: La Universidad Nacional Abierta: Educacion a distancia.</h2>
+            <a href="" download="./cuadro-comparativo-una.docx" class="button">Descargar trabajo (formato word)</a>
+        </div>
+        <div class="card">
+            <h2>Unidad II: El estudiante y su vinculacion con la Universidad Nacional Abierta</h2>
+            <a href="" download="./evaluacion-2.docx" class="button">Descargar trabajo (formato word)</a>
+        </div>
+        <div class="card">
+            <h2>Unidad III: Eleccion de la carrera</h2>
+            <a href="" download="./Unidad3_correccion.docx" class="button">Descargar trabajo (formato word)</a>
+        </div>
+        <div class="card">
+            <h2>Unidad IV: Busqueda y procesamiento de informacion</h2>
+            <a href="" download="./esquema-UnidadIV.docx" class="button">Descargar trabajo (formato word)</a>
+        </div>
+        <div class="card">
+            <h2>Unidad V: Expresion escrita.</h2>
+            <a href="" download="./unidad 5.docx" class="button">Descargar trabajo (formato word)</a>
+        </div>
+    </div>
+     <div class="nota-container">
+    <p class="nota"><b>Nota: una vez descargado y abierto los documentos, le indicara que los archivos estan ''dañados'',  solo debe dar click en ''aceptar''' e indique que quiere recuperar el contenido del documento, luego de nuevo en ''aceptar y podra visualizarlo sin problemas.</b></p>
+
+     </div>
+
+    <footer>
+        <p>Cristian Cordero <br>C.I: 31197377 <br>18/11/2022</p>
+
+        <h1 class="title">Mi portafolio del curso introductorio </h1>
+        
+    </footer>
+</body>
+</html>
